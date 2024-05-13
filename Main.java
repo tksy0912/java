@@ -39,5 +39,13 @@ class Main {
 
     text = "Java";
     System.out.println(text);
+
+
+    // 変数の自己代入
+    int number = 3;
+    System.out.println(number);
+
+    number = number + 7;
+    System.out.println(number);
   }
 }
