@@ -19,5 +19,22 @@ class Main {
     // 変数boolの値を出力
     System.out.println(bool);
     
+    
+    // 論理演算子
+    // trueと出力
+    System.out.println(true || false);
+    
+    // falseと出力
+    System.out.println(false && true);
+    
+    // 「8 < 5」かつ「3 >= 2」の結果を出力
+    System.out.println(8 < 5 && 3 >= 2);
+    
+    // 「8 < 5」または「3 >= 2」の結果を出力
+    System.out.println(8 < 5 || 3 >= 2);
+    
+    // 「8 < 5」でない、の結果を出力
+    System.out.println(!(8 < 5));
+    
   }
 }
