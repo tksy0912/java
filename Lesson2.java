@@ -85,5 +85,40 @@ class Main {
         System.out.println("凶です");
         break;
     }
+
+
+    // 繰り返し処理：while文
+    int number = 10;
+    // 例：numberが0より大きい場合に繰り返す繰り返し処理
+    while (0 < number) {
+      System.out.println(number);
+      number--;
+    }
+
+
+    // 繰り返し処理：for文
+    for(int i = 1; i <= 10; i++) {
+      System.out.println(i + "回目のループです");
+    }
+
+
+    // break、continue
+    int i = 1;
+    while (i < 10) {
+      // iが5の倍数のとき、繰り返し処理を終了
+      if (i % 5 == 0) {
+        break;
+      }
+      System.out.println(i);
+      i++;
+    }
+
+    for (int j = 1; j < 10; j++) {
+      // jが3の倍数のとき、処理をスキップ
+      if (j % 3 == 0) {
+        continue;
+      }
+      System.out.println(j);
+    }
   }
 }
