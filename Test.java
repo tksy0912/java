@@ -15,6 +15,7 @@ public class Main {
 }
 
 
+
 // 1〜10までに偶数が何個あるか、また偶数の合計は幾つになるか表示させる
 public class Test1 {
 	public static void main(String[] args) {
@@ -33,6 +34,8 @@ public class Test1 {
 	}
 }
 
+
+
 // 1〜10までの整数をカンマ区切りで横並びで表示させる(10にはカンマをつけない)
 public class Test2 {
 	public static void main(String[] args) {
@@ -49,6 +52,7 @@ public class Test2 {
 	  }
 	}
 }
+
 
 
 //要素数20の配列を宣言し、要素に0から5ずつ加算して代入させる。
